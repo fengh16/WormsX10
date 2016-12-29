@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resourse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sourses">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sourses</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Sourses</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Sourses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon.ico">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\hero-left.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\start.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Balance.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\RedWin.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\FrontSight.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Boom.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back1.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back2.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back3.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\EndBack1.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\EndBack2.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\StartBack1.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\StartBack2.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Weapon0_big.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Weapon1_big.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Weapon2_big.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Weapon3_big.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\YellowWin.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Switch.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\ChooseBack.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Sticker.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Mountain.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Water.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\AidCase.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Quit.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Restart.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\hero_Run.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Help.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\HelpButton.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\hero_Run-left.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back1Small.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back2Small.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Back3Small.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\MountainSmall.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\WaterSmall.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\FrontSightYellow.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\StickerYellow.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\WindMapLeft.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\WindMapRight.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Dstart.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Easy.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Hard.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Normal.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\TargetCase.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\AidCaseSmall.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\BoomCase.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\JumpCase.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\RedJump.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Spring.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\YellowJump.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\QuitButton.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\SelectReturn.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\QuitGame.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide1.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide2.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide3.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide4.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide5.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide6.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide7.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide8.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide9.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide10.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\Guide11.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+    <Image Include="res\ui\GuideStart.bmp">
+      <Filter>Resourse</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Worms.rc">
+      <Filter>Resourse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Sounds\Gaming.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\NotGaming.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\PreParing.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\Playing.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\Boom.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mChangeWeapon.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mDrown.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHeoDie.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi1.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi2.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi3.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi4.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi5.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHi6.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mHit.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\mSpring.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\Gaming2.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\2NotGaming.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+    <Media Include="res\Sounds\PressButton.wav">
+      <Filter>Resourse</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

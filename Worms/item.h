@@ -1,0 +1,101 @@
+#ifndef ITEM_H
+#define ITEM_H
+
+#include "global.h"
+
+
+//// 全局变量
+
+// 声明位图句柄
+HBITMAP m_hS_Water;
+HBITMAP m_hS_Mountain;
+HBITMAP m_hSbmp_Back1;
+HBITMAP m_hS_Back2;
+HBITMAP m_hS_Back3;
+HBITMAP m_hBackgroundBmp;
+HBITMAP m_hQuit;
+HBITMAP m_hMainQuitGame;
+HBITMAP m_hHelpButton;
+HBITMAP m_hRestart;
+HBITMAP m_hCase_Aid;
+HBITMAP m_hSCase_Aid;
+HBITMAP hC_Target;
+HBITMAP hDBoomCase;
+HBITMAP hDSpringCase;
+HBITMAP hGuide1;
+HBITMAP hGuide2;
+HBITMAP hGuide3;
+HBITMAP hGuide4;
+HBITMAP hGuide5;
+HBITMAP hGuide6;
+HBITMAP hGuide7;
+HBITMAP hGuide8;
+HBITMAP hGuide9;
+HBITMAP hGuide10;
+HBITMAP hGuide11;
+HBITMAP hDJumpCase;
+HBITMAP hY_Jump;
+HBITMAP hR_Jump;
+HBITMAP m_hL_Wind;
+HBITMAP m_hR_Wind;
+HBITMAP m_hWater;
+HBITMAP m_hMountain;
+HBITMAP m_hSwitch;
+HBITMAP m_hSticker;
+HBITMAP m_hY_Sticker;
+HBITMAP m_hChooseBack;
+HBITMAP m_hQ_Button;
+HBITMAP m_hWeapon0_big;
+HBITMAP m_hWeapon1_big;
+HBITMAP m_hWeapon2_big;
+HBITMAP m_hWeapon3_big;
+HBITMAP m_hBack1;
+HBITMAP m_hBack2;
+HBITMAP m_hBack3;
+HBITMAP m_hFormHelp;
+HBITMAP m_hStartBack1;
+HBITMAP sBack2;
+HBITMAP m_hEndBack1;
+HBITMAP m_hEndBack2;
+HBITMAP m_hHeroBmp;
+HBITMAP m_hHeroLeftBmp;
+HBITMAP m_hGameStartButtonBmp;
+HBITMAP m_hGameDStartButtonBmp;
+HBITMAP m_hGameGStartButtonBmp;
+HBITMAP m_hGameEasyButtonBmp;
+HBITMAP m_hGameNormalButtonBmp;
+HBITMAP m_hGameHardButtonBmp;
+HBITMAP m_hGameBalanceButtonBmp;
+HBITMAP m_hGameRedWinButtonBmp;
+HBITMAP m_hGameYellowWinButtonBmp;
+HBITMAP m_hBoomBmp;
+HBITMAP m_hFrontSightBmp;
+HBITMAP m_hY_FrontSightBmp;
+HBITMAP hSelectReturn;
+
+// 声明英雄、建筑、地形、按钮
+Hero			m_hero[num_hero + 1];
+Weapon			m_Weapon[num_weapon];
+AidCase			m_AidCase[num_AidCase];
+TargetCase		m_TargetCase[num_TargetCase];
+Track			m_Track;
+GameButton		m_gameStartButton;
+GameButton		m_gameDStartButton;
+GameButton		m_gameGStartButton;
+GameButton		m_gameEasyButton;
+GameButton		m_gameNormalButton;
+GameButton		m_gameHardButton;
+GameButton		m_gameBalanceButton;
+GameButton		m_gameRedWinButton;
+GameButton		m_gameYellowWinButton;
+GameButton		m_gameRestartButton;
+GameButton		m_gameQuitButton;
+GameButton		m_gameMainQuitGameButton;
+GameButton		m_gameReturnButton;
+GameButton		m_gameHelpButton;
+GameButton		m_gameSelectReturnButton;
+
+// 声明游戏状态
+GameStatus gameStatus;
+
+#endif
